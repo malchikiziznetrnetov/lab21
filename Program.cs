@@ -34,6 +34,7 @@ namespace suka
                             break;
                         case '/':
                             Console.WriteLine($"Результат {a / b}");
+                            //dsad
                             break;
                         case 'e':
                             checker = false;
