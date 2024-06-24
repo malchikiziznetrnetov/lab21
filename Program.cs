@@ -26,6 +26,7 @@ namespace suka
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         case '+':
                             Console.WriteLine($"Результат {a + b}");
 =======
@@ -40,6 +41,10 @@ namespace suka
                         case '/':
                             Console.WriteLine($"Результат {a / b}");
 >>>>>>> devide
+=======
+                        case 'e':
+                            checker = false;
+>>>>>>> exit
                             break;
                         default:
                             Console.WriteLine("Выберите действие: +, -, *, /, e - выйти");
