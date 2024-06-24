@@ -23,28 +23,20 @@ namespace suka
                     char symbol = char.Parse(Console.ReadLine());
                     switch (symbol)
                     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                         case '+':
                             Console.WriteLine($"Результат {a + b}");
-=======
+                            break;
                         case '-':
                             Console.WriteLine($"Результат {a - b}");
->>>>>>> substract
-=======
+                            break;
                         case '*':
                             Console.WriteLine($"Результат {a * b}");
->>>>>>> multiply
-=======
+                            break;
                         case '/':
                             Console.WriteLine($"Результат {a / b}");
->>>>>>> devide
-=======
+                            break;
                         case 'e':
                             checker = false;
->>>>>>> exit
                             break;
                         default:
                             Console.WriteLine("Выберите действие: +, -, *, /, e - выйти");
