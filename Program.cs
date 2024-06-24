@@ -23,8 +23,13 @@ namespace suka
                     char symbol = char.Parse(Console.ReadLine());
                     switch (symbol)
                     {
+<<<<<<< HEAD
                         case '+':
                             Console.WriteLine($"Результат {a + b}");
+=======
+                        case '-':
+                            Console.WriteLine($"Результат {a - b}");
+>>>>>>> substract
                             break;
                         default:
                             Console.WriteLine("Выберите действие: +, -, *, /, e - выйти");
