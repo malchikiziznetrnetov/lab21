@@ -24,12 +24,17 @@ namespace suka
                     switch (symbol)
                     {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         case '+':
                             Console.WriteLine($"Результат {a + b}");
 =======
                         case '-':
                             Console.WriteLine($"Результат {a - b}");
 >>>>>>> substract
+=======
+                        case '*':
+                            Console.WriteLine($"Результат {a * b}");
+>>>>>>> multiply
                             break;
                         default:
                             Console.WriteLine("Выберите действие: +, -, *, /, e - выйти");
