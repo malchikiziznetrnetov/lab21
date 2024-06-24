@@ -32,6 +32,7 @@ namespace suka
                         case '*':
                             Console.WriteLine($"Результат {a * b}");
                             break;
+                            //исправил
                         case '/':
                             Console.WriteLine($"Результат {a / b}");
                             //dsad
